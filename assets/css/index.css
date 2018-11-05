@@ -1,16 +1,36 @@
+
+@font-face {
+    font-family: 'AktivGrotesk-Regular';
+    src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
+   
+   
+    body{
+        padding-top:51px;
+        border-top:gray solid 12px;
+        border-left:gray solid 5px;
+        border-right:gray solid 5px;
+        border-bottom:gray solid 5px;
+        }
+   
+   
+    .date {
+    color: #8C2424;
+    font-weight: bold; }
+
 .twoColumn{
      width: 49;
      float:left;
    
 }
 
-body{
-padding-top:51px;
-border-top:gray solid 12px;
-border-left:gray solid 5px;
-border-right:gray solid 5px;
-border-bottom:gray solid 5px;
-}
+
 
 img{ 
    max-width: 100%;
