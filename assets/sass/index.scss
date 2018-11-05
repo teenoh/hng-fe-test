@@ -1,0 +1,28 @@
+$smT: 48px;
+$bgT: 60px;
+$smFontSize: 24 px;
+$bgFontSize: 48 px;
+$primaryClr: #ffffff;
+$secondaryClr: #8C2424;
+
+@font-face {
+  font-family: 'AktivGrotesk-Regular';
+  src: url('../css/fonts/AktivGrotesk-Regular.otf');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: $primaryClr;
+  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
+}
+
+.date {
+  color: $secondaryClr;
+  font-weight: bold;
+}
+
+
+  
