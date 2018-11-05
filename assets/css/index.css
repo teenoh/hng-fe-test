@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 @font-face {
     font-family: 'AktivGrotesk-Regular';
@@ -53,21 +52,3 @@ img{
      display:block;
 }
 
-=======
-@font-face {
-  font-family: 'AktivGrotesk-Regular';
-  src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
-html,
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #ffffff;
-  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
-
-.date {
-  color: #8C2424;
-  font-weight: bold; }
-
-/*# sourceMappingURL=index.css.map */
->>>>>>> 3c69a331fd44f630f74aaec7ea360f88a7bb270b
