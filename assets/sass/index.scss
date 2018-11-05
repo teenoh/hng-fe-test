@@ -4,25 +4,69 @@ $smFontSize: 24 px;
 $bgFontSize: 48 px;
 $primaryClr: #ffffff;
 $secondaryClr: #8C2424;
-
 @font-face {
-  font-family: 'AktivGrotesk-Regular';
-  src: url('../css/fonts/AktivGrotesk-Regular.otf');
+    font-family: 'AktivGrotesk-Regular';
+    src: url('../css/fonts/AktivGrotesk-Regular.otf');
 }
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: $primaryClr;
-  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: $primaryClr;
+    font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+aside {
+    text-align: center
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    border-bottom: 1px dotted #000;
+    color: #000
+}
+
+.bordered-top-bottom {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000
+}
+
+.bordered-bottom {
+    border-bottom: 1px dotted #000
+}
+
+.aside-social {
+    padding: 20px
+}
+
+.aside-input {
+    height: 50px;
+    border: 1px solid #000
+}
+
+.aside-input::placeholder {
+    text-align: center
+}
+
+.aside-btn {
+    background-color: grey;
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+    color: #fff
 }
 
 .date {
-  color: $secondaryClr;
-  font-weight: bold;
+    color: $secondaryClr;
+    font-weight: bold;
 }
-
-
-  
