@@ -9,9 +9,23 @@ body {
   padding-top: 56px;
   font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
 
-.date {
-  color: #8C2424;
-  font-weight: bold; }
+header {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+aside {
+  text-align: center; }
+
+a {
+  color: #000; }
+
+a:hover {
+  border-bottom: 1px dotted #000;
+  color: #000; }
+
+.bordered-top-bottom {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000; }
 
 hr {
   border: solid gray 1.1px; }
@@ -33,5 +47,19 @@ p {
 .dotted-line {
   border-bottom: 1px dotted #000000;
   border-bottom-width: 1px; }
+
+.aside-input::placeholder {
+  text-align: center; }
+
+.aside-btn {
+  background-color: grey;
+  height: 40px;
+  width: 50%;
+  margin: 10px;
+  color: #fff; }
+
+.date {
+  color: #8C2424;
+  font-weight: bold; }
 
 /*# sourceMappingURL=index.css.map */

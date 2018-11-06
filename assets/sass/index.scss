@@ -7,8 +7,8 @@ $secondaryClr: #8C2424;
 $greyColor: rgb(128, 128, 128);
 
 @font-face {
-  font-family: 'AktivGrotesk-Regular';
-  src: url('../css/fonts/AktivGrotesk-Regular.otf');
+    font-family: 'AktivGrotesk-Regular';
+    src: url('../css/fonts/AktivGrotesk-Regular.otf');
 }
 
 
@@ -21,9 +21,27 @@ body {
   font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
 }
 
-.date {
-  color: $secondaryClr;
-  font-weight: bold;
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+aside {
+    text-align: center
+}
+
+a {
+    color: #000
+}
+
+a:hover {
+    border-bottom: 1px dotted #000;
+    color: #000
+}
+
+.bordered-top-bottom {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000
 }
 
 hr {
@@ -53,4 +71,19 @@ p {
   border-bottom-width: 1px;
 }
 
-  
+.aside-input::placeholder {
+    text-align: center
+}
+
+.aside-btn {
+    background-color: grey;
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+    color: #fff
+}
+
+.date {
+    color: $secondaryClr;
+    font-weight: bold;
+}
