@@ -8,4 +8,7 @@
 A Single Post view for HNG.
 
 
+![screencast](assets/images/screenshot_blog.PNG)
+
+
 
