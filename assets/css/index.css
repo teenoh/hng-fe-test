@@ -23,10 +23,16 @@ header {
     width: 120px;
     height: 120px; }
 
-.col-mid-9{
-  overflow: scroll;
+.col-mid-3{
+  margin-left: 0;
 }
-
+.pr-3 img{
+  width: 100%;
+}
+.text-center input{
+  width: 100%;
+  font-size: 15px;
+}
 a {
   color: #000; }
 
@@ -48,7 +54,8 @@ article .social-button {
 
 aside {
   text-align: center;
-  border-right: 1px solid #000; }
+  border-right: 1px solid #000;
+  margin-left: 0 !important ; }
   aside .aside-input::placeholder {
     text-align: center; }
   aside .aside-btn {
@@ -69,9 +76,6 @@ aside {
     border-bottom-width: 1px; }
 
 
-.texcenter input{
-  position: relative;
-}
 
 
 textarea.form-control {
@@ -83,8 +87,14 @@ textarea.form-control {
   .pr-3{
     display: none;
   }
+  .pr-3 img{
+    width: 60%;
+  }
   .menu{
     display: block;
+  }
+  .menu:hover{
+    cursor: pointer;
   }
   .mb-0{
     font-size: 30px;
@@ -92,6 +102,10 @@ textarea.form-control {
   }
   .textarea.form-control:first-of-type{
     margin-bottom: 10px;
+  }
+  .text-center input{
+    width: 50%;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=index.css.map */
