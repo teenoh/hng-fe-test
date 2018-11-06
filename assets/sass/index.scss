@@ -4,18 +4,20 @@ $smFontSize: 24 px;
 $bgFontSize: 48 px;
 $primaryClr: #ffffff;
 $secondaryClr: #8C2424;
+$greyColor: rgb(128, 128, 128);
 
 @font-face {
   font-family: 'AktivGrotesk-Regular';
   src: url('../css/fonts/AktivGrotesk-Regular.otf');
 }
 
-html,
+
 body {
-  padding: 0;
   margin: 0;
   width: 100%;
   background-color: $primaryClr;
+  border-top: $greyColor solid 22px;
+  padding-top:56px;
   font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
 }
 
@@ -24,5 +26,31 @@ body {
   font-weight: bold;
 }
 
+hr {
+  border: solid $greyColor 1.1px;
+}
+
+img { 
+  max-width: 100%;
+  padding-top: 31px;
+}
+
+.social-button{
+  color:white;
+  background-color: darkblue;
+}
+
+p {
+  text-align: justify;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.dotted-line{
+  border-bottom: 1px dotted #000000; 
+  border-bottom-width: 1px;
+}
 
   

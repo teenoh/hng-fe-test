@@ -1,52 +1,37 @@
-
 @font-face {
-    font-family: 'AktivGrotesk-Regular';
-    src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #ffffff;
-    font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
-   
-   
-    body{
-        padding-top:51px;
-        border-top:gray solid 12px;
-      
-        }
-   
-   
-    .date {
-    color: #8C2424;
-    font-weight: bold; }
+  font-family: 'AktivGrotesk-Regular';
+  src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
+body {
+  margin: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: gray solid 22px;
+  padding-top: 56px;
+  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
 
-.twoColumn{
-     width: 49;
-     float:left;
-   
-}
+.date {
+  color: #8C2424;
+  font-weight: bold; }
 
+hr {
+  border: solid gray 1.1px; }
 
+img {
+  max-width: 100%;
+  padding-top: 31px; }
 
-img{ 
-   max-width: 100%;
-   padding-top: 31px;
-}
+.social-button {
+  color: white;
+  background-color: darkblue; }
 
-.social-button{
-    color:white;
-    background-color: darkblue;
-}
-.bold{
-    font-weight: 700;
-}
-.dotted-line{
-    border-bottom: 1px dotted #000000; border-bottom-width: 1px;
-}
-.text-right{
-    float:left;
-     display:block;
-}
+p {
+  text-align: justify; }
 
+.bold {
+  font-weight: 700; }
+
+.dotted-line {
+  border-bottom: 1px dotted #000000;
+  border-bottom-width: 1px; }
+
+/*# sourceMappingURL=index.css.map */
