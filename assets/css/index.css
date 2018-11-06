@@ -57,6 +57,7 @@ aside {
     border-bottom-width: 1px; }
 
 textarea.form-control {
-  background-color: #C4C4C4; }
+  background-color: #C4C4C4;
+  border-radius: 0px; }
 
 /*# sourceMappingURL=index.css.map */
