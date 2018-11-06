@@ -1,2 +1,11 @@
+
+
+
 # hng-fe-test
-code for Single Blog Post view HNG
+
+## Single Blog Post
+
+A Single Post view for HNG.
+
+
+
