@@ -1,13 +1,20 @@
 @font-face {
   font-family: "AktivGrotesk-Regular";
   src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
+*{
+  margin: 0;
+}
 body {
   margin: 0;
+  padding: 0;
   width: 100%;
   background-color: #fff;
   border-top: gray solid 22px;
   padding-top: 56px;
   font-family: "AktivGrotesk-Regular", Arial, Helvetica, sans-serif; }
+.menu{
+  display: none;
+}
 
 header {
   padding-top: 20px;
@@ -15,6 +22,10 @@ header {
   header img {
     width: 120px;
     height: 120px; }
+
+.col-mid-9{
+  overflow: scroll;
+}
 
 a {
   color: #000; }
@@ -29,11 +40,11 @@ article .divider {
 article #blog-image {
   max-width: 100%; }
 article p {
-  text-align: justify;
-  font-size: 20px; }
+  text-align: justify; }
 article .social-button {
   color: white;
   background-color: darkblue; }
+  
 
 aside {
   text-align: center;
@@ -56,11 +67,31 @@ aside {
   aside .dotted-line {
     border-bottom: 1px dotted #000;
     border-bottom-width: 1px; }
-  aside .sText {
-    font-size: 16px; }
+
+
+.texcenter input{
+  position: relative;
+}
+
 
 textarea.form-control {
-  background-color: #C4C4C4;
-  border-radius: 0px; }
+  resize: none;
+  background-color: #C4C4C4; 
+  margin-bottom: 100px;}
 
+@media screen and (max-width:800px){
+  .pr-3{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+  .mb-0{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .textarea.form-control:first-of-type{
+    margin-bottom: 10px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
