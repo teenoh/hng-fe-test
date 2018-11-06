@@ -29,7 +29,8 @@ article .divider {
 article #blog-image {
   max-width: 100%; }
 article p {
-  text-align: justify; }
+  text-align: justify;
+  font-size: 20px; }
 article .social-button {
   color: white;
   background-color: darkblue; }
@@ -55,6 +56,8 @@ aside {
   aside .dotted-line {
     border-bottom: 1px dotted #000;
     border-bottom-width: 1px; }
+  aside .sText {
+    font-size: 16px; }
 
 textarea.form-control {
   background-color: #C4C4C4;

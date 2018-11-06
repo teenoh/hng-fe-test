@@ -54,6 +54,7 @@ article {
 
   p {
     text-align: justify;
+    font-size: 20px;
   }
 
   .social-button {
@@ -92,6 +93,10 @@ aside {
   .dotted-line {
     border-bottom: 1px dotted $darkColor;
     border-bottom-width: 1px;
+  }
+
+  .sText {
+    font-size: 16px;
   }
 
 }
