@@ -46,7 +46,14 @@ a:hover {
 }
 
 .aside-social {
-    padding: 20px
+    padding: 20px;
+    text-align: center !important;
+    p {
+        margin-left: 32%;
+        i {
+            padding: 10px;
+        }
+    }
 }
 
 .aside-input {

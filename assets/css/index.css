@@ -1,5 +1,4 @@
 @font-face {
-<<<<<<< HEAD
   font-family: "AktivGrotesk-Regular";
   src: url("../css/fonts/AktivGrotesk-Regular.otf");
 }
@@ -41,6 +40,13 @@ a:hover {
 
 .aside-social {
   padding: 20px;
+  text-align: center !important;
+}
+.aside-social p {
+  margin-left: 32%;
+}
+.aside-social p i {
+  padding: 10px;
 }
 
 .aside-input {
@@ -63,56 +69,6 @@ a:hover {
 .date {
   color: #8C2424;
   font-weight: bold;
-=======
-    font-family: 'AktivGrotesk-Regular';
-    src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: #ffffff;
-    font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
-   
-   
-    body{
-        padding-top:51px;
-        border-top:gray solid 12px;
-      
-        }
-   
-   
-    .date {
-    color: #8C2424;
-    font-weight: bold; }
-
-.twoColumn{
-     width: 49;
-     float:left;
-   
-}
-
-
-
-img{ 
-   max-width: 100%;
-   padding-top: 31px;
-}
-
-.social-button{
-    color:white;
-    background-color: darkblue;
-}
-.bold{
-    font-weight: 700;
-}
-.dotted-line{
-    border-bottom: 1px dotted #000000; border-bottom-width: 1px;
-}
-.text-right{
-    float:left;
-     display:block;
->>>>>>> 4bf40b7468fa644282f5509089ef4d22945695a5
 }
 
 /*# sourceMappingURL=index.css.map */
