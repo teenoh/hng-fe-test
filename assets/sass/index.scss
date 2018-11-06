@@ -2,9 +2,10 @@ $smT: 48px;
 $bgT: 60px;
 $smFontSize: 24 px;
 $bgFontSize: 48 px;
-$primaryClr: #ffffff;
+$primaryClr: #fff;
 $secondaryClr: #8c2424;
 $greyColor: rgb(128, 128, 128);
+$darkColor: #000;
 
 @font-face {
   font-family: "AktivGrotesk-Regular";
@@ -63,7 +64,7 @@ article {
 
 aside {
   text-align: center;
-  border-right: 1px solid black;
+  border-right: 1px solid $darkColor;
 
   .aside-input::placeholder {
     text-align: center;
@@ -78,20 +79,23 @@ aside {
   }
 
   a:hover {
-    border-top: 1px dotted #000;
+    border-top: 1px dotted $darkColor;
     border-bottom: 1px dotted #000;
     color: #000;
   }
 
   .bordered-top-bottom {
-    border-top: 1px dotted #000;
-    border-bottom: 1px dotted #000;
+    border-top: 1px dotted $darkColor;
+    border-bottom: 1px dotted $darkColor;
   }
 
   .dotted-line {
-    border-bottom: 1px dotted #000000;
+    border-bottom: 1px dotted $darkColor;
     border-bottom-width: 1px;
   }
 
+}
 
+textarea.form-control {
+  background-color: #C4C4C4;
 }
