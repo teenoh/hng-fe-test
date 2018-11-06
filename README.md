@@ -7,6 +7,9 @@ Hotels.ng Frontend Test 1
 
 ## Description 
 This project is a Single Blog Post page designed by the HNG Frontend team.
+
+Github page View - https://teenoh.github.io/hng-fe-test/
+
 Design 
 https://www.figma.com/file/TFZqgnsUX5zi1c3wqH5QnS1z/My-Blog?node-id=37%3A46
 
@@ -21,9 +24,10 @@ The following tools and libraries were used;
 - [Popper.js](https://popper.js.org)
 
 
-## ABout this Project
+## About this Project
 
-This project was initated due to the current Academic Staff Union of Universities (ASUU) strike action in Nigera which started on the 5th of November 2018.
+This project was initated due to the current Academic Staff Union of Universities
+(ASUU) strike action in Nigera which started on the 5th of November 2018.
 
 
 
