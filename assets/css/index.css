@@ -1,65 +1,75 @@
 @font-face {
-  font-family: 'AktivGrotesk-Regular';
-  src: url("../css/fonts/AktivGrotesk-Regular.otf"); }
+  font-family: "AktivGrotesk-Regular";
+  src: url("../css/fonts/AktivGrotesk-Regular.otf");
+}
 body {
   margin: 0;
   width: 100%;
   background-color: #ffffff;
   border-top: gray solid 22px;
   padding-top: 56px;
-  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif; }
+  font-family: "AktivGrotesk-Regular", Arial, Helvetica, sans-serif;
+}
 
 header {
   padding-top: 20px;
-  padding-bottom: 20px; }
-
-aside {
-  text-align: center; }
+  padding-bottom: 20px;
+}
+header img {
+  width: 120px;
+  height: 120px;
+}
 
 a {
-  color: #000; }
+  color: #000;
+}
 
-a:hover {
-  border-bottom: 1px dotted #000;
-  color: #000; }
-
-.bordered-top-bottom {
-  border-top: 1px dotted #000;
-  border-bottom: 1px dotted #000; }
-
-hr {
-  border: solid gray 1.1px; }
-
-img {
+article .date {
+  color: #8c2424;
+  font-weight: bold;
+}
+article .divider {
+  width: 70%;
+  margin: 0 auto;
+  border: solid gray 1.1px;
+}
+article #blog-image {
   max-width: 100%;
-  padding-top: 31px; }
-
-.social-button {
+}
+article p {
+  text-align: justify;
+}
+article .social-button {
   color: white;
-  background-color: darkblue; }
+  background-color: darkblue;
+}
 
-p {
-  text-align: justify; }
-
-.bold {
-  font-weight: 700; }
-
-.dotted-line {
-  border-bottom: 1px dotted #000000;
-  border-bottom-width: 1px; }
-
-.aside-input::placeholder {
-  text-align: center; }
-
-.aside-btn {
+aside {
+  text-align: center;
+  border-right: 1px solid black;
+}
+aside .aside-input::placeholder {
+  text-align: center;
+}
+aside .aside-btn {
   background-color: grey;
   height: 40px;
   width: 50%;
   margin: 10px;
-  color: #fff; }
-
-.date {
-  color: #8C2424;
-  font-weight: bold; }
+  color: #fff;
+}
+aside a:hover {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+  color: #000;
+}
+aside .bordered-top-bottom {
+  border-top: 1px dotted #000;
+  border-bottom: 1px dotted #000;
+}
+aside .dotted-line {
+  border-bottom: 1px dotted #000000;
+  border-bottom-width: 1px;
+}
 
 /*# sourceMappingURL=index.css.map */

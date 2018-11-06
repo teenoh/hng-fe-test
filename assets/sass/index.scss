@@ -3,87 +3,95 @@ $bgT: 60px;
 $smFontSize: 24 px;
 $bgFontSize: 48 px;
 $primaryClr: #ffffff;
-$secondaryClr: #8C2424;
+$secondaryClr: #8c2424;
 $greyColor: rgb(128, 128, 128);
 
 @font-face {
-    font-family: 'AktivGrotesk-Regular';
-    src: url('../css/fonts/AktivGrotesk-Regular.otf');
+  font-family: "AktivGrotesk-Regular";
+  src: url("../css/fonts/AktivGrotesk-Regular.otf");
 }
-
 
 body {
   margin: 0;
   width: 100%;
   background-color: $primaryClr;
   border-top: $greyColor solid 22px;
-  padding-top:56px;
-  font-family: 'AktivGrotesk-Regular', Arial, Helvetica, sans-serif;
+  padding-top: 56px;
+  font-family: "AktivGrotesk-Regular", Arial, Helvetica, sans-serif;
 }
 
 header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+
+a {
+  color: #000;
+}
+
+article {
+  .date {
+    color: $secondaryClr;
+    font-weight: bold;
+  }
+
+  .divider {
+    width: 70%;
+    margin: 0 auto;
+    border: solid $greyColor 1.1px;
+  }
+
+  #blog-image {
+    max-width: 100%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .social-button {
+    color: white;
+    background-color: darkblue;
+  }
 }
 
 aside {
-    text-align: center
-}
+  text-align: center;
+  border-right: 1px solid black;
 
-a {
-    color: #000
-}
+  .aside-input::placeholder {
+    text-align: center;
+  }
 
-a:hover {
-    border-bottom: 1px dotted #000;
-    color: #000
-}
-
-.bordered-top-bottom {
-    border-top: 1px dotted #000;
-    border-bottom: 1px dotted #000
-}
-
-hr {
-  border: solid $greyColor 1.1px;
-}
-
-img { 
-  max-width: 100%;
-  padding-top: 31px;
-}
-
-.social-button{
-  color:white;
-  background-color: darkblue;
-}
-
-p {
-  text-align: justify;
-}
-
-.bold{
-  font-weight: 700;
-}
-
-.dotted-line{
-  border-bottom: 1px dotted #000000; 
-  border-bottom-width: 1px;
-}
-
-.aside-input::placeholder {
-    text-align: center
-}
-
-.aside-btn {
+  .aside-btn {
     background-color: grey;
     height: 40px;
     width: 50%;
     margin: 10px;
-    color: #fff
-}
+    color: #fff;
+  }
 
-.date {
-    color: $secondaryClr;
-    font-weight: bold;
+  a:hover {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+    color: #000;
+  }
+
+  .bordered-top-bottom {
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+  }
+
+  .dotted-line {
+    border-bottom: 1px dotted #000000;
+    border-bottom-width: 1px;
+  }
+
+
 }
